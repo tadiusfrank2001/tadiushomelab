@@ -82,7 +82,7 @@ VNC allows GUI-based control of the Mac mini from the MacBook Pro.
   -restart -agent
   ```
 
-- Or enable via Terminal:
+- then run this commoand via Terminal to restart vnc once more and make sure the password is changed:
 
   ```bash
   sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart \
