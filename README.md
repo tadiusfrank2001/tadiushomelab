@@ -143,5 +143,9 @@ scp ~/Downloads/ubuntu-xx.xx-live-server-amd64.iso username@<mac_mini_ip_address
 
 ---
 
-> 📌 **Next Steps**: We'll expand the cluster, and firewall configure Docker & Kubernetes, and automate deployments. Stay tuned for Phase 4!
+> 📌 **Next Steps**: We'll expand the cluster, we'll add the following:
+>  A) Configured firewall
+>  B) Docker & Kubernetes for web applications
+>  C) Kali Linux VM
+>  D) IDS and IPS 
 
