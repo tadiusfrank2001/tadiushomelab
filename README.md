@@ -73,6 +73,14 @@ VNC allows GUI-based control of the Mac mini from the MacBook Pro.
 - Enable **Screen Sharing** on the Mac mini:
 
   - Go to: System Preferences > Sharing > Screen Sharing ✅
+  - If Advanced Remote Management is preferred, make sure to set a password via terminal with the bash command
+
+  ```bash
+  sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart \
+  -configure -clientopts -setvnclegacy -vnclegacy yes \
+  -configure -clientopts -setvncpw -vncpw $(echo -n 'yourpassword' | xxd -p) \
+  -restart -agent
+  ```
 
 - Or enable via Terminal:
 
