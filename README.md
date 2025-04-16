@@ -18,11 +18,12 @@
 
 ## Phase 1: Setting Up the Physical Layer for Virtualization
 
-The first phase involves physically preparing the Intel Mac mini for virtualization. This includes:
+The first phase involves physically preparing the 2018 Intel Mac Mini with 8GB RAM for virtualization. This includes:
 
 ### 💾 RAM Upgrade
 
 We upgraded the RAM on the Intel Mac mini from **8GB to 32GB** using Crucial RAM. This allows for smoother operation of multiple VMs and more efficient resource management.
+Two Crucial 16GB DDR4 3200 MHz (PC4-25600) SODIMM 260-Pin Memory sticks were manually installed.
 
 ### 🖥️ Headless Setup
 
