@@ -59,9 +59,9 @@ To operate the Mac mini without direct peripherals, we needed two key remote con
   ```bash
   ssh username@<mac_mini_ip_address>
   ```
-- To find the IP address (look for en0):
+- To find the IP address (look for en0) this piping command should return the ip though:
   ```bash
-  ifconfig -a
+  ifconfig en0 | grep inet
   ```
 
 ### 2. 🖥️ VNC (Virtual Network Computing)
