@@ -27,7 +27,7 @@ Two Crucial 16GB DDR4 3200 MHz (PC4-25600) SODIMM 260-Pin Memory sticks were man
 
 ### 🖥️ Headless Setup
 
-The goal was to run the Mac mini headless—without a dedicated monitor, mouse, or keyboard.
+The goal was to run the Mac mini headless—without peripheral devices like a dedicated monitor, mouse, or keyboard.
 
 However, **macOS doesn't display video output without a connected screen**, so we used an **HDMI emulator (display emulator dongle)** to trick macOS into thinking a display is connected. This enables screen sharing and full resolution via remote access.
 
