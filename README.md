@@ -64,6 +64,25 @@ To operate the Mac mini without direct peripherals, we needed two key remote con
   ifconfig en0 | grep inet
   ```
 
+### 1B. Passwordless SSH
+
+Set up secure, passwordless SSH access from the MacBook Pro to the Mac mini.
+
+- Find the Mac mini's IP Address (type on the mac mini terminal) Look for an address like `192.168.x.x`(it can be any private IPv4 range).
+```bash
+ifconfig en0 | grep inet
+```
+- Generate an SSH Key on the MacBook Pro
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Press `Enter` to accept the default location (`~/.ssh/id_ed25519`)
+
+- Copy Your Public Key to the Mac mini
+```bash
+ssh-copy-id username@<mac_mini_ip_address>
+```
+
 ### 2. 🖥️ VNC (Virtual Network Computing)
 
 VNC allows GUI-based control of the Mac mini from the MacBook Pro.
